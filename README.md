@@ -1,5 +1,5 @@
 Get to know me a little better!
 
-Checkout my website :)
+Check out my website :)
 
 https://raz-bracha.up.railway.app/
