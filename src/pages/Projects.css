@@ -100,3 +100,9 @@
     width: calc(100% - 10px);
   }
 }
+@media (max-width: 480px) {
+  .card {
+    width: calc(100% - 20px);
+    margin: 10px;
+  }
+}
