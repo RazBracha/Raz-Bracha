@@ -1,0 +1,29 @@
+@import 'animate.css';
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Quicksand:wght@300&display=swap");
+
+.homePage {
+  text-align: center;
+  background-image: url('../../public/pictures/background2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 350%;
+  padding-top: 7%;
+  color: white;
+
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: fadeInDown;
+  animation-duration: 2s;
+}
+
+.subHeader {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+}

@@ -1,0 +1,33 @@
+@import 'animate.css';
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Quicksand:wght@300&display=swap");
+
+ul.bar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 40px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: 120%;
+    font-weight: bold;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+ul.bar li {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin-right: 10px;
+    /* Add spacing between list items */
+}
+
+ul.bar li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(245, 130, 149);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 5px;
+    transition: border-bottom 0.4s;
+}
