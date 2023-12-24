@@ -100,7 +100,7 @@
 @media (max-width: 768px) {
   .card {
     width: calc(50% - 10px);
-    padding: 40px;
+    padding: 80px;
     /* Adjust the padding for smaller screens */
   }
 }
@@ -109,7 +109,7 @@
   .card {
     width: calc(100% - 20px);
     margin: 10px;
-    padding: 40px;
+    padding: 80px;
     /* Adjust the padding for smaller screens */
   }
 }
