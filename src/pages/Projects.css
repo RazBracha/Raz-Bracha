@@ -4,11 +4,9 @@
 .barDiv {
   height: 100vh;
   width: 100vw;
-  /* display: flex; */
   background-color: rgb(161, 161, 161, 0.2);
   background-size: cover;
   overflow: auto;
-
 }
 
 .cards {
@@ -18,30 +16,15 @@
   flex-wrap: wrap;
 }
 
-.Projects {
-  /* display: flex; */
-
-  /* margin: 20px; */
-  /* background-color: rgb(255, 212, 240, 0.1); */
-
-}
-
 .card {
   font-family: 'Aclonica', sans-serif;
   width: calc(25% - 20px);
   height: 240px;
-  /* margin: 3%; */
   perspective: 1000px;
-  /* border-radius: 10px; */
-  /* cursor: pointer; */
   margin-top: 10%;
-
-  /* background-color: rgb(255, 123, 231) */
-  /* margin: 10px; */
-  /* Increase the margin */
   padding: 10px;
   margin: 10% 3% 10% 3%;
-  /* top right bottom left */
+  cursor: pointer;
 }
 
 .card-inner {
@@ -51,15 +34,10 @@
   transition: transform 0.5s;
 }
 
-.card:hover .card-inner {
-  transform: rotateY(180deg);
-}
-
 .card:hover .card-inner,
-.card:active .card-inner {
+.card.flipped .card-inner {
   transform: rotateY(180deg);
 }
-
 
 .front,
 .back {
@@ -101,9 +79,7 @@
   .card {
     width: calc(50% - 10px);
     padding-top: 120px;
-
     padding-bottom: 150px;
-    /* Adjust the padding for smaller screens */
   }
 }
 
@@ -113,6 +89,5 @@
     margin: 10px;
     padding-top: 120px;
     padding-bottom: 150px;
-    /* Adjust the padding for smaller screens */
   }
 }
