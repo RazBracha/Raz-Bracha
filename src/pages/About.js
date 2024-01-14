@@ -1,12 +1,12 @@
-import './About.css';
-import Bar from './Bar';
+import '../styles/About.css';
+import Navbar from '../comps/Navbar';
 
 function About() {
 
   return (
     <>
       <div className='body'>
-        <Bar />
+        <Navbar />
         <div className="about">
           <div className='text-container'>
             <h1 className='heading'> About me </h1>

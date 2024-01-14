@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './Projects.css';
-import Bar from './Bar';
+import '../styles/Projects.css';
+import Navbar from '../comps/Navbar';
 
 function Projects() {
   const projects = [
@@ -19,7 +19,7 @@ function Projects() {
   return (
     <>
       <div className='barDiv'>
-        <Bar />
+        <Navbar />
         <div className='cards'>
           {projects.map((project, index) => (
             <div

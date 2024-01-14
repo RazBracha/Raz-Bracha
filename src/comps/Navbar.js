@@ -1,8 +1,8 @@
-import './Bar.css';
+import '../styles/Navbar.css';
 import { useNavigate } from 'react-router-dom';
 
 
-function Bar() {
+function Navbar() {
 
   const navigate = useNavigate();
 
@@ -18,6 +18,10 @@ function Bar() {
     navigate('/projects');
   }
 
+  const handleContactClick = () => {
+    navigate('/contact');
+  }
+
   return (
     <>
       <div className="Projects">
@@ -25,10 +29,11 @@ function Bar() {
           <li onClick={handleHomeClick}> Home </li>
           <li onClick={handleAboutClick}> About </li>
           <li onClick={handleProjectsClick}> Projects </li>
+          <li onClick={handleContactClick}> Contact </li>
         </ul>
       </div>
     </>
   );
 }
 
-export default Bar;
+export default Navbar;

@@ -13,6 +13,7 @@ ul.bar {
     justify-content: center;
     margin: auto;
     display: flex;
+    background-color: transparent;
 }
 
 ul.bar li {

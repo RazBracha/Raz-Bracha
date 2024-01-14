@@ -1,5 +1,5 @@
-import Bar from './Bar';
-import './HomePage.css';
+import Navbar from '../comps/Navbar';
+import '../styles/HomePage.css';
 
 
 function HomePage() {
@@ -8,9 +8,7 @@ function HomePage() {
   return (
     <>
       <div className="homePage">
-
-        <Bar />
-
+        <Navbar />
         <h1 className="header">
           Hi. I`m Raz. <br /> A Developer.
         </h1>
@@ -19,7 +17,6 @@ function HomePage() {
           Driven by the thrill of coding,
           and exploring emerging tech`s potential.
         </h2>
-
 
       </div>
     </>
