@@ -1,24 +1,22 @@
-import Navbar from '../comps/Navbar';
 import '../styles/HomePage.css';
-
+import Layout from '../comps/Layout'
 
 function HomePage() {
-
-
   return (
     <>
-      <div className="homePage">
-        <Navbar />
-        <h1 className="header">
-          Hi. I`m Raz. <br /> A Developer.
-        </h1>
-
-        <h2 className='subHeader'>I am passionate about technology and development.<br />
-          Driven by the thrill of coding,
-          and exploring emerging tech`s potential.
-        </h2>
-
-      </div>
+      <Layout containerName="home-page-container" activePage="home">
+        <div className='home-items-container'>
+          <div className='home-text-container'>
+            <p className='title'>Hey, i am Raz</p>
+            <p className='mid-section'>I bring <span className='mid-section--color'>ideas to life</span> <br />through code.</p>
+            <p className='last-section'>Passionate about developing innovative solutions, <br />
+              I love to explore new technologies and driven by the thrill of coding.</p>
+          </div>
+          {/* <div className='home-img-container'>
+            <img alt='' className='home-img-container' src='/pictures/profilePicture.jpg' />
+          </div> */}
+        </div>
+      </Layout>
     </>
   );
 }

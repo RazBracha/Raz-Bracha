@@ -1,29 +1,86 @@
 @import 'animate.css';
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Quicksand:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-.homePage {
-  text-align: center;
-  background-image: url('../../public/pictures/background2.jpg');
+.home-page-container {
+  /* background-image: url('../../public/pictures/background2.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+  background-color: #F5FCFF;
   height: 100vh;
 }
 
-.header {
-  font-family: 'Aclonica', sans-serif;
-  font-size: 350%;
-  padding-top: 7%;
-  color: white;
+.home-items-container {
+  display: flex;
+}
 
-  display: inline-block;
-  margin: 0 0.5rem;
-
+.home-text-container {
+  direction: ltr;
+  padding-left: 5rem;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   animation: fadeInDown;
   animation-duration: 2s;
 }
 
-.subHeader {
-  color: white;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bolder;
+.title {
+  font-size: 20px;
+  padding-top: 5rem;
+  padding-bottom: 0.1px;
+}
+
+.mid-section {
+  font-size: 250%;
+  font-weight: 500;
+  font-weight: 700;
+}
+
+.last-section {
+  font-size: 140%;
+}
+
+.mid-section--color {
+  color: #5E3BEE;
+}
+
+.home-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 40%;
+  height: auto;
+  margin-left: 5rem;
+  padding-top: 10%;
+}
+
+@media (min-width: 1080px) {
+  .home-items-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .home-text-container {
+    padding-left: 5rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  .home-img-container {
+    width: 50%;
+    margin-left: 0;
+    text-align: right;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .mid-section {
+    font-size: 3rem;
+  }
+
+  .last-section {
+    font-size: 1.6rem;
+  }
 }

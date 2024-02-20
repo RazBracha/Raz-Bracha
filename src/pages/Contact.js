@@ -1,14 +1,14 @@
 import ContactInfo from '../comps/ContactInfo';
-import Navbar from '../comps/Navbar';
+import Layout from '../comps/Layout';
 import '../styles/ContactInfo.css';
 
 function Contact() {
     return (
         <>
-            <div className='body'>
-                <Navbar />
+            <Layout containerName="contact-page-container" activePage="contact">
                 <ContactInfo />
-            </div>
+            </Layout>
+
         </>
     )
 }

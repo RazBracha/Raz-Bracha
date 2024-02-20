@@ -17,7 +17,7 @@ function ContactInfo() {
                         <a href="https://www.facebook.com/raz.bracha.7" target="_blank" rel="noopener noreferrer">
                             <img alt='' className='facebook-image' src='/pictures/facebook.png' />
                         </a>
-                        <p className='mail'><a href="mailto:razi.bracha@gmail.com">razi.bracha@gmail.com</a></p>
+                        <p className='mail'><a href="mailto:razi.bracha@gmail.com"> <img alt='' className='email-image' src='/pictures/email-picture.png' /></a></p>
                         <p className='copy-write'>&copy; 2024 Raz Bracha</p>
                     </div>
                 </div>
