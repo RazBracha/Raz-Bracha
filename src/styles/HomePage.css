@@ -3,9 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 .home-page-container {
-  /* background-image: url('../../public/pictures/background2.jpg');
-  background-size: cover;
-  background-position: center; */
   background-color: #F5FCFF;
   height: 100vh;
 }
@@ -82,5 +79,39 @@
 
   .last-section {
     font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-items-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-text-container {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .home-img-container {
+    max-width: 100%;
+    margin-left: 0;
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  .title {
+    font-size: 18px;
+    padding-top: 3rem;
+    padding-bottom: 10px;
+  }
+
+  .mid-section {
+    font-size: 200%;
+  }
+
+  .last-section {
+    font-size: 120%;
   }
 }

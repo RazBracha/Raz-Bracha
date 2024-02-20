@@ -12,7 +12,6 @@ function App() {
     <>
       <Router>
         <Routes>
-          {/* <Route path="/" element={<Layout><HomePage /></Layout>} /> */}
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Portfolio />} />

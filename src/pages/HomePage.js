@@ -12,9 +12,6 @@ function HomePage() {
             <p className='last-section'>Passionate about developing innovative solutions, <br />
               I love to explore new technologies and driven by the thrill of coding.</p>
           </div>
-          {/* <div className='home-img-container'>
-            <img alt='' className='home-img-container' src='/pictures/profilePicture.jpg' />
-          </div> */}
         </div>
       </Layout>
     </>

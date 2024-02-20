@@ -33,10 +33,8 @@ function Navbar({ activePage }) {
           <li className={activePage === 'about' ? 'active' : ''} onClick={handleAboutClick}> About </li>
           <li className={activePage === 'projects' ? 'active' : ''} onClick={handleProjectsClick}> Projects </li>
           <li className={activePage === 'volunteer' ? 'active' : ''} onClick={handleVolunteerClick}> Volunteer </li>
+          <li className={activePage === 'contact' ? 'active' : ''} onClick={handleContactClick}> Contact </li>
         </ul>
-      </div>
-      <div className='contact-button'>
-        <button className='contact-me-button' onClick={handleContactClick}>Contact me</button>
       </div>
     </div>
   );
