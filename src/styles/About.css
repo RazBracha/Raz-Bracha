@@ -10,6 +10,7 @@
 }
 
 .about {
+  background-color: #B0DDEB;
   font-family: "Roboto", sans-serif;
   text-align: left;
   font-weight: 300;
@@ -20,19 +21,22 @@
 .text-container {
   flex-direction: column;
   justify-content: center;
-  margin-left: 5%;
+  padding-left: 5%;
+  width: 80%;
 }
 
 .img-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  justify-content: right;
+  padding-right: 2rem;
 }
 
 .heading {
   font-family: "Roboto Slab", serif;
-  color: #5E3BEE;
+  color: white;
   font-size: 2rem;
+  padding-top:  3rem;
   padding-bottom: 1rem;
   animation: fadeInDown;
   animation-duration: 2s;
@@ -50,13 +54,12 @@
 }
 
 .profile-image {
-  max-width: 40%;
+  max-width: 100%;
   height: auto;
-  margin-left: 5rem;
   padding-top: 10%;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .about {
     margin-top: 5%;
     flex-direction: row;
@@ -65,7 +68,6 @@
 
   .text-container {
     width: 50%;
-    margin-left: 5%;
     text-align: left;
   }
 
@@ -92,7 +94,7 @@
     margin-left: 0;
     padding-top: 10%;
   }
-}
+} */
 
 @media (max-width: 767px) {
   .about {

@@ -3,34 +3,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 .home-page-container {
-  background-color: #F5FCFF;
+  background-image: url('/public/pictures/back4.svg');
   height: 100vh;
+background-position: center;
+background-size: cover;
 }
 
 .home-items-container {
-  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .home-text-container {
-  direction: ltr;
-  padding-left: 5rem;
   font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
   font-style: normal;
   animation: fadeInDown;
   animation-duration: 2s;
+  padding-left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.title, .sub-title {
+  margin: 0;
+  padding: 0;
 }
 
 .title {
+  font-size: 60px;
+  padding-top: 23rem;
+}
+
+.sub-title {
   font-size: 20px;
-  padding-top: 5rem;
-  padding-bottom: 0.1px;
+  margin-top: 0.5rem;
+
 }
 
 .mid-section {
-  font-size: 250%;
-  font-weight: 500;
+  font-size: 220%;
   font-weight: 700;
+  padding-top:  3rem;
 }
 
 .last-section {
@@ -38,10 +52,10 @@
 }
 
 .mid-section--color {
-  color: #5E3BEE;
+  color: #B0DDEB;
 }
 
-.home-img-container {
+/* .home-img-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,9 +63,9 @@
   height: auto;
   margin-left: 5rem;
   padding-top: 10%;
-}
+} */
 
-@media (min-width: 1080px) {
+/* @media (min-width: 1080px) {
   .home-items-container {
     flex-direction: row;
     justify-content: space-around;
@@ -60,7 +74,6 @@
   .home-text-container {
     padding-left: 5rem;
     width: 100%;
-    text-align: left;
   }
 
   .home-img-container {
@@ -80,9 +93,9 @@
   .last-section {
     font-size: 1.6rem;
   }
-}
+} */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .home-items-container {
     flex-direction: column;
     align-items: center;
@@ -114,4 +127,4 @@
   .last-section {
     font-size: 120%;
   }
-}
+} */

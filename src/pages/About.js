@@ -5,8 +5,8 @@ function About() {
 
   return (
     <>
-      <Layout containerName="about-page-container" activePage="about">
-        <div className="about">
+      {/* <Layout containerName="about-page-container" activePage="about"> */}
+        <div id="about" className="about">
           <div className='text-container'>
             <h1 className='heading'> About me </h1>
             <p className='about-section'>My name is Raz Bracha, I'm 24-year-old. <br />
@@ -17,10 +17,10 @@ function About() {
             <p className='about-section-bold'>My curiosity drives me to stay updated with the latest in technology, allowing me to explore new opportunities in the ever-changing tech landscape.</p>
           </div>
           <div className='img-container'>
-            <img alt='' className='profile-image' src='/pictures/profilePicture.jpg' />
+            <img alt='' className='profile-image' src='/pictures/profile1.svg' />
           </div>
         </div>
-      </Layout>
+      {/* </Layout> */}
     </>
   );
 }

@@ -6,6 +6,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%; 
 }
 
 ul.bar {
@@ -32,14 +35,14 @@ ul.bar li:hover {
     text-decoration-color: black;
 }
 
-.bar li.active {
+/* ul.bar li.active {
     border-radius: 5px;
-    border-color: #5E3BEE;
-    color: #5E3BEE;
+    border-color: #6083FF;
+    color: #6083FF;
     font-weight: 900;
     text-decoration: underline;
-    text-decoration-color: #5E3BEE;
-}
+    text-decoration-color: #6083FF;
+} */
 
 /* 
 .contact-me-button {

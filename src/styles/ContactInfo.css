@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Quicksand:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Quicksand:wght@300&display=swap");
 
 .contact-page-container {
     margin: 0;
@@ -9,7 +9,6 @@
 
 .background {
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     padding-top: 5%;
 }
@@ -30,7 +29,6 @@
 }
 
 .head {
-    /* color: rgb(245, 130, 149); */
     color: #5E3BEE;
     font-family: 'Aclonica', sans-serif;
 }
@@ -58,13 +56,7 @@
     margin: 15px 10px;
 }
 
-.mail {
-    /* font-size: 16px;
-    margin-top: 30px;
-    color: #5E3BEE; */
-}
-
 .copy-write {
     font-size: 14px;
     margin-top: 30px;
-}
+} */
