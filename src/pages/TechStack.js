@@ -6,9 +6,9 @@ AOS.init();
 
 const TechStack = () => {
     return (
-        <div id="projects" className='TechStack' >
+        <div className='TechStack' >
         <div className='TechStack-container' data-aos="fade-down" data-aos-duration="1000"> 
-            <h1 className='header'>Technologies & Projects</h1>
+            {/* <h1 className='header'>Technologies & Projects</h1> */}
             <ul className='technologies'>
                 <li>
                     <img className="tech-icon" src="/pictures/javascript.svg" alt="JavaScript" />

@@ -2,16 +2,18 @@
 .TechStack{
   overflow: auto;
   width: 100vw;
-  margin: 0;
+  background-color: #151412;
 }
 
 .TechStack-container {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;;
     text-align: left;
     font-style: normal;
+    margin-top: 1rem;
 }
 
-.header {
+/* .header {
     font-family: "Roboto Slab", serif;
     color: #B0DDEB;
     font-size: 2rem;
@@ -21,7 +23,7 @@
     animation: fadeInDown;
     animation-duration: 2s;
     
-}
+} */
 
 .technologies {
     display: flex;
@@ -32,13 +34,15 @@
   }
   
   .technologies img {
-    width: 130px; 
-    height: 130px; 
-    margin: 0 10px;
+    width: 100px; 
+    height: 100px; 
+    margin: 0 20px;
   }
 
   .technologies p {
+    font-size: 1rem;
     margin-top: -0.9rem; 
+    color: white;
   }
 
   .tech-icon {
@@ -49,10 +53,12 @@
     transform: scale(1.2);
   }
 
-  @media (max-width: 767px) {
-    .technologies {
-      flex-direction: column;
-      align-items: center;
+    @media (max-width: 767px) {
+      .technologies {
+        /* flex-direction: column; */
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2rem;
+      }
     }
-
-  }

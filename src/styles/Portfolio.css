@@ -1,18 +1,31 @@
-.portfolio-page-container {
-    overflow: auto;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
+.portfolio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolio {
-    background-color: #F1F1F1;
+    background-color: #151412;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    padding-bottom: 3rem;
+}
+
+.projects-title{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 6rem;
+    color: grey;
+}
+
+.portfolio {
+    background-color: #151412;
     text-align: left;
-    font-weight: 300;
     font-style: normal;
     display: flex;
-    padding-left: 5%;
-    margin-top: 5rem;
 }
 
 .project-list {
@@ -20,11 +33,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 60%;
 }
 
 .project-card {
     width: 40%;
-    height: 35%;
+    height: 15%;
     margin-bottom: 2rem;
 }
 

@@ -1,12 +1,23 @@
 @import 'animate.css';
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Quicksand:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 .home-page-container {
-  background-image: url('/public/pictures/back4.svg');
+  /* background-image: url('/public/pictures/Rectangle-grid.svg'); */
   height: 100vh;
-background-position: center;
-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+/* background-size: cover; */
+  background-color: #151412;
+}
+.avatar-pic{
+  width: 20%; /* Adjust this to make the image smaller or larger */
+  height: auto; /* This will maintain the aspect ratio of the image */
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .home-items-container {
@@ -16,7 +27,7 @@ background-size: cover;
 }
 
 .home-text-container {
-  font-family: "Roboto Slab", serif;
+  font-family: 'Quicksand', sans-serif;
   font-style: normal;
   animation: fadeInDown;
   animation-duration: 2s;
@@ -28,11 +39,12 @@ background-size: cover;
 .title, .sub-title {
   margin: 0;
   padding: 0;
-}
+  color: white;
+  font-weight: 700;}
 
 .title {
-  font-size: 60px;
-  padding-top: 23rem;
+  font-size: 50px;
+  padding-top: 20rem;
 }
 
 .sub-title {
@@ -42,18 +54,72 @@ background-size: cover;
 }
 
 .mid-section {
-  font-size: 220%;
+  font-size: 250%;
+  color: white;
+  padding-top: 25rem;
   font-weight: 700;
-  padding-top:  3rem;
 }
 
 .last-section {
   font-size: 140%;
+  font-weight: 300;
+  color: white;
+  padding-top: 2rem;
 }
 
 .mid-section--color {
-  color: #B0DDEB;
+  background: linear-gradient(to right, #EC8BBB, #F58E88);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 767px) {
+  .home-items-container {
+    flex-direction: column;
+    align-items: center;
+    background-color: #151412;
+  }
+
+  .home-text-container {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    }
+
+  .home-img-container {
+    max-width: 100%;
+    margin-left: 0;
+    text-align: center;
+    margin-top: -50px;
+    }
+  .avatar-pic{
+    width: 70%; /* Adjust this to make the image smaller or larger */
+    height: auto; /* This will maintain the aspect ratio of the image */
+    /* position: absolute; */
+    /* top: 35%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -50px;
+  }
+
+  .title {
+    font-size: 18px;
+    /* padding-top: 3rem; */
+    /* padding-bottom: 10px; */
+  }
+
+  .mid-section {
+    font-size: 200%;
+    margin-top: -30%;
+  }
+
+  .last-section {
+    font-size: 120%;
+  }
+}
+
+
 
 /* .home-img-container {
   display: flex;
