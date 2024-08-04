@@ -19,6 +19,7 @@
 .img-container {
     width: 25%;
     align-self: flex-start;
+    padding-right: 2rem;
 }
 
 .content-container{
