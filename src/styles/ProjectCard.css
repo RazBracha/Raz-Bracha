@@ -4,14 +4,12 @@
 }
 
 .project-card {
-    /* border: 1px solid black; */
     border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     background-color: #2a2a2a;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     animation: fadeIn 2s ease-in-out;
     transition: transform 0.3s;
     overflow: hidden;
@@ -86,32 +84,3 @@
 .project-content {
     flex: 1;
 }
-
-/* @media (min-width: 768px) {
-    .project-card {
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .project-content {
-        width: 200%;
-        margin-right: 20px;
-    }
-
-    .project-card img {
-        width: 100%;
-        margin-bottom: 0;
-    }
-
-    .project-description {
-        font-size: 1rem;
-    }
-
-    .project-tech {
-        font-size: 1rem;
-    }
-
-    .project-link::after {
-        font-size: 0.9rem;
-    }
-} */

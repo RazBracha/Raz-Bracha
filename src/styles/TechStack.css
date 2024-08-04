@@ -13,18 +13,6 @@
     margin-top: 1rem;
 }
 
-/* .header {
-    font-family: "Roboto Slab", serif;
-    color: #B0DDEB;
-    font-size: 2rem;
-    padding-top:  3rem;
-    padding-bottom: 1rem;
-    padding-left: 5%;
-    animation: fadeInDown;
-    animation-duration: 2s;
-    
-} */
-
 .technologies {
     display: flex;
     justify-content: center; 
@@ -55,7 +43,6 @@
 
     @media (max-width: 767px) {
       .technologies {
-        /* flex-direction: column; */
         justify-content: center;
         display: flex;
         flex-wrap: wrap;

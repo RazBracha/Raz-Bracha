@@ -1,7 +1,6 @@
 import "../styles/HomePage.css";
 import Layout from "../comps/Layout";
-import About from "../pages/About";
-import Portfolio from "../pages/Portfolio";
+import Portfolio from "./Projects";
 import TechStack from "../pages/TechStack";
 import Footer from "../comps/Footer";
 import StyledButton from "../comps/StyledButton";
@@ -9,7 +8,7 @@ import Experience from "../pages/Experience";
 
 function HomePage() {
   const handleContactClick = () => {
-    document.getElementById('contact').scrollIntoView();
+    document.getElementById("contact").scrollIntoView();
   };
   return (
     <>
@@ -17,10 +16,9 @@ function HomePage() {
         <div id="home" className="home-items-container">
           <div className="home-text-container">
             <img alt="" className="avatar-pic" src="/pictures/avatar.png" />
-            {/* <p className="title">Raz Bracha</p> */}
-            {/* <p className='sub-title'>Full Stack Engineer</p> */}
             <p className="mid-section">
-              I bring <span className="mid-section--color">ideas to life</span>{" "} <br />
+              I bring <span className="mid-section--color">ideas to life</span>{" "}
+              <br />
               through code.
             </p>
             <p className="last-section">
@@ -32,16 +30,17 @@ function HomePage() {
               technologies.
             </p>
             <div className="button">
-            <StyledButton variant="white" onClick={handleContactClick}>
-              Get In Touch
-            </StyledButton>
-            <StyledButton 
-              as="a" 
-              href="/files/Raz_Bracha_Full_Stack_Developer.pdf" 
-              variant="transparent" 
-              download>
-              Download CV
-            </StyledButton>
+              <StyledButton variant="white" onClick={handleContactClick}>
+                Get In Touch
+              </StyledButton>
+              <StyledButton
+                as="a"
+                href="/files/Raz_Bracha_Full_Stack_Developer.pdf"
+                variant="transparent"
+                download
+              >
+                Download CV
+              </StyledButton>
             </div>
           </div>
         </div>

@@ -3,16 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand&display=swap');
 
 .pages {
-    /* font-family: 'Quicksand', sans-serif;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%; 
-    background-color: #1E1D1D;
-    padding-bottom: 1rem;
-    z-index: 10; */
     font-family: 'Quicksand', sans-serif;
     display: flex;
     align-items: center;
@@ -45,7 +35,6 @@ ul.bar {
 }
 
 ul.bar li {
-    /* background-color: rgba(255, 255, 255, 0.2); */
     padding: 5px;
     border-radius: 5px;
     margin-right: 15px;
@@ -70,39 +59,7 @@ ul.bar li:hover {
         justify-content: center;
     }
     ul.bar li {
-        /* margin-right: 10px; */
         font-size: 80%;
         align-items: center;
-
     }
 }
-
-/* ul.bar li.active {
-    border-radius: 5px;
-    border-color: #6083FF;
-    color: #6083FF;
-    font-weight: 900;
-    text-decoration: underline;
-    text-decoration-color: #6083FF;
-} */
-
-/* 
-.contact-me-button {
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    color: #5E3BEE;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 5px 10px;
-    border-radius: 5px;
-    float: right;
-    margin-right: 20%;
-    margin-left: 1rem;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.contact-me-button:hover {
-    background-color: #5E3BEE;
-    color: #ffffff;
-} */

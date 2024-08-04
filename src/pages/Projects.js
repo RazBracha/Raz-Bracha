@@ -1,6 +1,6 @@
 import Layout from '../comps/Layout';
 import ProjectCard from '../comps/ProjectCard';
-import '../styles/Portfolio.css'
+import '../styles/Projects.css'
 
 const projects = [
     { "id": "1", "name": "ShelterHelper", "description": "Dog shelter management app for IOS & Android.", 'technologies': "React Native, Firebase", "image": '/pictures/shelterhelper.jpeg', 'github': "https://github.com/ronitli/ShelterHelper" },
@@ -11,7 +11,6 @@ const projects = [
 
 const Portfolio = () => {
     return (
-        // <Layout containerName="portfolio-page-container" activePage="projects">
           <div id="projects" className='portfolio-container'>
             <div className='portfolio'>
                 <h1 className='projects-title'>Projects</h1>
@@ -22,7 +21,6 @@ const Portfolio = () => {
                 </div>
             </div>
          </div>
-        // </Layout>
     );
 };
 
