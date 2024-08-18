@@ -35,7 +35,7 @@ function HomePage() {
               </StyledButton>
               <StyledButton
                 as="a"
-                href="/files/Raz_Bracha_Full_Stack_Developer.pdf"
+                href="/files/Raz_Bracha_Full_Stack_Engineer.pdf"
                 variant="transparent"
                 download
               >
