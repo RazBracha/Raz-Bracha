@@ -1,9 +1,9 @@
 import "../styles/HomePage.css";
-import Layout from "../comps/Layout";
+import Layout from "../components/Layout";
 import Portfolio from "./Projects";
 import TechStack from "../pages/TechStack";
-import Footer from "../comps/Footer";
-import StyledButton from "../comps/StyledButton";
+import Footer from "../components/Footer";
+import StyledButton from "../components/StyledButton";
 import Experience from "../pages/Experience";
 
 function HomePage() {

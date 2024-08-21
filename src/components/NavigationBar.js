@@ -5,16 +5,8 @@ const handleHomeClick = () => {
     document.getElementById('home').scrollIntoView();
   };
   
-  const handleAboutClick = () => {
-    document.getElementById('about').scrollIntoView();
-  };
-  
   const handleProjectsClick = () => {
     document.getElementById('projects').scrollIntoView();
-  };
-  
-  const handleVolunteerClick = () => {
-    document.getElementById('volunteer').scrollIntoView();
   };
   
   const handleContactClick = () => {
